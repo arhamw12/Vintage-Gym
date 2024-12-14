@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workout Tips - Vintage Gym</title>
+  <link rel="stylesheet" href="membershipstyles.css">
+  <script src="workoutscript.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Vintage Gym Logo">
+    </div>
+    <h1>Welcome to Vintage Gym</h1>
+    <p id="greeting"></p>
+    <nav>
+      <ul>
+        <li><a href="index.html">About Us</a></li>
+        <li><a href="membership-form.html">Membership Form</a></li>
+        <li><a href="workout-tips.html">Workout Tips</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Workout Tips</h2>
+    <div class="tips-container">
+      <div class="tip">
+        <img src="warmup.jpg" alt="Warm Up" class="tip-image">
+        <h3>Tip #1: Warm Up</h3>
+        <p>Always start your workout with a warm-up to avoid injuries and prepare your body for exercise.</p>
+      </div>
+      <div class="tip">
+        <img src="hydration.jpg" alt="Stay Hydrated" class="tip-image">
+        <h3>Tip #2: Stay Hydrated</h3>
+        <p>Drink water before, during, and after your workout to stay hydrated and improve performance.</p>
+      </div>
+      <div class="tip">
+        <img src="properform.jpg" alt="Proper Form" class="tip-image">
+        <h3>Tip #3: Proper Form</h3>
+        <p>Focus on proper form over heavy weights to prevent injuries and get better results.</p>
+      </div>
+      <div class="tip">
+        <img src="cooldown.jpg" alt="Cool Down" class="tip-image">
+        <h3>Tip #4: Cool Down</h3>
+        <p>Finish with a cool-down to relax your muscles and reduce soreness.</p>
+      </div>
+    </div>
+
+    <h3>Workout Plan Generator</h3>
+    <form id="workout-form">
+      <label for="days">How many days a week do you want to work out?</label>
+      <input type="number" id="days" min="1" max="7" required>
+      <button type="submit">Generate Plan</button>
+    </form>
+
+    <h3>Your Workout Plan:</h3>
+    <ul id="workout-plan"></ul>
+  </main>
+
+  <footer>
+    <p>© 2024 Vintage Gym. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+

@@ -1,0 +1,134 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, form, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #286BA2; /* Consistent background color */
+  color: white; /* Text color */
+  line-height: 1.6; /* Improved readability */
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+}
+
+header .logo img {
+  max-width: 100px; /* Restricts logo size */
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 10px 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+  background-color: #59b7c1; /* Hover color for navigation links */
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: white; /* Ensures heading is visible */
+}
+
+.tips-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two-column layout */
+  gap: 20px;
+}
+
+.tip {
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black for tips */
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.tip-image {
+  width: 100%; /* Responsive width */
+  max-width: 150px; /* Restrict maximum size */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures neat fit */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 10px;
+  display: block; /* Ensures block alignment */
+  margin-left: auto; /* Centers the image */
+  margin-right: auto;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.9); /* Light background for forms */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+form label {
+  display: block; /* Ensures labels are on separate lines */
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #286BA2; /* Consistent color */
+}
+
+form input, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1em;
+}
+
+form button {
+  background-color: #286BA2; /* Button background color */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #1A4F83; /* Darker hover effect */
+}
+
+#workout-plan {
+  margin-top: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+#workout-plan li {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px 0;
+}
+
+
